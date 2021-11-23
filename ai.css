@@ -1,6 +1,7 @@
 
 /*Stylesheet for Agile Institute Pages*/
-
+/* Import Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;900&family=Rock+Salt&display=swap');
 
 
 /******* Layout Elements ********/
@@ -376,6 +377,10 @@ div.nav ul li a{
 div.cea0dcc050be432004ce28ffe15673a56, h2.widget-header, span.published, i.fa-calendar, span.views, span.str-rating, hr.kb-header-line, .vd3c2037fdbd51014bd74780a3296190e .kb-number-info{
     display:none;
 }
+div.sp-announcement-root,  div.v6f9ddde3db03c4101bcd7e508c9619e5 {
+ display:none;
+}
+
 .vd3c2037fdbd51014bd74780a3296190e .kb-desktop.kb-wrapper {
     padding:0;
 }
