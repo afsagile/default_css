@@ -408,6 +408,14 @@ div.kb-panel-heading{
     padding:0;
     }
 
+.kb-help-wrapper, .kb-permalink-separator{
+          display:none;
+        }
+
+.sp-ac-container{
+    display:none;
+    }
+
 /*End Remove ServiceNow Garbage UI Elements*/
 
 /**** Start Jumpstart Videos Page Specific CSS, Pull this into the main CSS file ***/
