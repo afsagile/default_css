@@ -443,4 +443,23 @@ div.video-bucket video{
   font-size:120%;
   line-height:170%;
 }
+
+div.two-columns {
+    width:1200px;
+    margin:0 auto;
+    column-count: 2;
+    column-gap: 100px;
+   column-rule: 1px solid #fff;
+column-rule-style:dotted;
+
+
+}
+div.black div.two-columns h2{
+    color:#fff;
+    font-size:180%;
+    font-family: 'Roboto', sans-serif;
+    margin:50px 0 0 0;
+   font-weight:bold;
+
+ }
 /***End page CSS**/
