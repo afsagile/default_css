@@ -148,6 +148,21 @@ div.more a {
     margin-top:10px;
 
 }
+
+#KB0015287  a.more {
+    display: block;
+    background: rgba(0,0,0,1);
+    font-size: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 150px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 8px 8px #d3d3d3;
+    color:#fff;
+}
+
  div.more a:hover {
     background: #333;
 
@@ -461,5 +476,14 @@ div.black div.two-columns h2{
     margin:50px 0 0 0;
    font-weight:bold;
 
+ }
+
+ #KB0015287  div.black {
+     border: 2px #00f3ff solid;
+     border-left: 0;
+     border-right: 0;
+     background: rgba(0,0,0,.7);
+     color:#00f3ff;
+     text-align:left;
  }
 /***End page CSS**/
