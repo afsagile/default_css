@@ -466,6 +466,8 @@ div.two-columns {
     column-gap: 100px;
    column-rule: 1px solid #fff;
 column-rule-style:dotted;
+text-align:left;
+
 
 
 }
