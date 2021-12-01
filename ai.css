@@ -15,10 +15,9 @@ div.row {
     margin:0;
 }
 
-
 div#container {
     overflow-y: scroll;
-    background-image: url(sys_attachment.do?sys_id=dc6737f31bf0e8105c42ea41f54bcba6);
+    background-image: url(https://accenturefederal.servicenowservices.com/sys_attachment.do?sys_id=ac9d5c441b86205031afed39bc4bcbe1&sysparm_this_url=kb_knowledge.do?sys_id=1f214a861bec641030c920efe54bcb68&sysparm_stack=/help?id=kb_article_view%26sys_kb_id=1f214a861bec641030c920efe54bcb68);
     background-size: cover;
     background-repeat: repeat;
     background-color: #000;
