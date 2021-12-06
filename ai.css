@@ -245,6 +245,12 @@ div#container div.row div.content h2{
    margin:0;
 
  }
+
+ div#container div.row div.white h2{
+     color:#8100CC;
+
+
+  }
 div.black ul{
     color:#fff;
     font-size:130%;
