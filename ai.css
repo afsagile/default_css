@@ -377,6 +377,7 @@ div.nav {
     width:100%;
     z-index: 3;
 
+
 }
 div.nav ul{
     display: flex;
@@ -386,10 +387,11 @@ div.nav ul{
     flex-wrap: wrap;
     justify-content: flex-end;
     list-style: none;
-    margin:10px 0 0 0 ;
     width:800px;
     float:right;
     padding:0;
+    height:81px;
+    align-items:center;
 }
 div.nav ul li a{
     color:#fff;
