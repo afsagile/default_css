@@ -303,15 +303,15 @@ div#container div.nav h1.page-title{
     float:left;
     color:#fff;
     display:block;
-    width:250px;
+    height:81px;
     margin:0;
     padding:0;
 }
-/*Make the Agile Institute Logo bigger*/
+/*Make the Agile Institute Logo bigger
 #KB0015285 .page-title img{
      width:300px;
 }
-
+*/
 h1.section-title{
    text-align:left;
    margin:0;
