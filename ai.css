@@ -427,10 +427,10 @@ div.nav ul li a{
 div#hero .grid-container {
      grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-div#hero .grid-container .grid-items{
+div#hero .grid-container .grid-item{
      background:transparent;
 }
-div#hero .grid-container .grid-items img{
+div#hero .grid-container .grid-item img{
      height:400px;
 }
 div#hero .grid-item p{
