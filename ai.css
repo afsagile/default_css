@@ -433,6 +433,10 @@ div#hero .grid-container .grid-items{
 div#hero .grid-container .grid-items img{
      height:400px;
 }
+div#hero .grid-item p{
+     font-size:65%;
+     color:#fff;
+}
 
 /********  Start Remove ServiceNow UI Elements ***********/
 
