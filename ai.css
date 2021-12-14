@@ -421,7 +421,12 @@ div.nav ul li a{
     width:550px;
 }
 
-
+div#hero .grid-container {
+     grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+div#hero .grid-container .grid-items{
+     background:transparent;
+}
 
 /********  Start Remove ServiceNow UI Elements ***********/
 
