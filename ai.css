@@ -309,7 +309,8 @@ div#container div.nav h1.page-title{
 }
 /*Make the Agile Institute Logo bigger*/
 #KB0015285 .page-title img{
-     height:81px;
+     height:45px;
+     margin-top:15px;
 }
 h1.section-title{
    text-align:left;
