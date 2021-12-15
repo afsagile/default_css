@@ -321,6 +321,11 @@ div#container div.nav h1.page-title{
      height:45px;
      margin-top:15px;
 }
+
+.page-title img{
+     height:81px;
+     margin-top:15px;
+}
 h1.section-title{
    text-align:left;
    margin:0;
