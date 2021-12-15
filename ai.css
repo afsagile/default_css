@@ -265,7 +265,10 @@ div.white {
           background-color: rgba(255,255,255,.9);
           color:#333;
      }
+.white h1.section-title{
+     color:#333;
 
+}
 div.black ul{
     color:#fff;
     font-size:130%;
