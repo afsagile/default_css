@@ -257,9 +257,15 @@ div#container div.row div.content h2{
 
  div#container div.row div.white h2{
      color:#8100CC;
+}
+div.white {
+          border: 2px #00f3ff solid;
+          border-left: 0;
+          border-right: 0;
+          background-color: rgba(255,255,255,.9);
+          color:#333;
+     }
 
-
-  }
 div.black ul{
     color:#fff;
     font-size:130%;
