@@ -565,4 +565,69 @@ div.black div.two-columns h2{
      color:#00f3ff;
      text-align:left;
  }
+
+
+div.two-columns{
+      display: flex;
+      margin-top: 25px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0;
+
+ }
+div.two-columns div{
+      margin:15px auto;
+      width:100%;
+ }
+
+
+
+div.two-columns img{
+      width: 100px;
+      filter: invert(68%) sepia(83%) saturate(1444%) hue-rotate(134deg) brightness(103%) contrast(107%);
+      float: left;
+      margin-right: 30px;
+ }
+
+div.two-columns p {
+      width: 425px;
+      display: block;
+      float: left;
+      text-align: left;
+      font-size: 90%;
+ }
+
+
+
+div.two-columns h2 {
+      text-transform: uppercase;
+      font-size: 150%;
+      margin: 0;
+      text-align: left;
+      color: #00f3ff;
+ }
+
+
+
+
+div.row a.fancy-button {
+      display: block;
+      font-size: 150%;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 10px;
+      width: 300px;
+      text-decoration: none;
+      font-family: 'Raleway', sans-serif;
+      border:0.1em solid #FFFFFF;
+      color:#fff;
+      border-radius:0.12em;
+      margin:0 auto;
+
+
+ }
+ a.fancy-button:hover{
+      color:#000000;
+      background-color:#FFFFFF;
+ }
 /***End page CSS**/
