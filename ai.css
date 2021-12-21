@@ -276,7 +276,21 @@ div.black ul{
     color:#fff;
     font-size:130%;
 
-
+    .product-logo{
+         float:left;
+         width:350px;
+    }
+    .details{
+         float:right;
+         width:550px;
+         font-size:150%;
+    }
+    #container .content .details h2{
+         color:#7801D0;
+    }
+    #KB0015289 div.row{
+         margin-bottom:25px;
+    }
  }
  div.black ul li ul{
     font-size:100%;
