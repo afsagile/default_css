@@ -212,6 +212,9 @@ div.purple div.more-alone a{
     width: 250px;
 
 }
+div.purple div.more a{
+color:#fff;
+}
 
 div.purple div.more-alone a:hover {
     background-color: #7801D0;
