@@ -343,7 +343,7 @@ div#container div.nav h1.page-title{
     padding:0;
 }
 /*Make the Agile Institute Logo bigger*/
-#KB0015285 .page-title img{
+#KB0015285 .page-title img, #KB0015287 .page-title img{
      height:40px;
      margin:20px 0 0 20px;
 }
@@ -547,7 +547,7 @@ div.video-bucket video{
   line-height:170%;
 }
 
-div.two-columns {
+#KB0015287 div.two-columns {
     width:1200px;
     margin:0 auto;
     column-count: 2;
@@ -555,8 +555,6 @@ div.two-columns {
    column-rule: 1px solid #fff;
 column-rule-style:dotted;
 text-align:left;
-
-
 
 }
 .center{
@@ -593,7 +591,27 @@ div.two-columns div{
       margin:15px auto;
       width:100%;
  }
+ .rfp-two-columns {
+     width:1200px;
+     margin:0 auto;
+     column-count: 2;
+     column-gap: 100px;
+    column-rule: 1px solid #fff;
+column-rule-style:dotted;
+text-align:left;
+display:block;
 
+}
+.rfp-two-columns h2{
+      color:#fff;
+      font-size:200%;
+      margin-top:50px;
+
+}
+.rfp-two-columns h3{
+      font-size:140%;
+      color:#fff;
+}
 
 
 div.two-columns img{
