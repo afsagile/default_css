@@ -578,7 +578,30 @@ div.black div.two-columns h2{
      text-align:left;
  }
 
+ div.white{
+      border-top:5px solid #7801D0;
+      border-bottom:5px solid #7801D0;
 
+ }
+ h1.section-title{
+      margin-bottom:20px;
+      font-size:300%;
+ }
+ .two-columns-b{
+       display: flex;
+       margin-top: 25px;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: 0;
+
+  }
+  .two-columns-b img{
+       width:500px;
+ }
+ .two-columns-b div{
+      width:100%;
+      text-align:center;
+ }
 div.two-columns{
       display: flex;
       margin-top: 25px;
