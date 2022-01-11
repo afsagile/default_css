@@ -413,17 +413,17 @@ div.hero-img h2{
     margin: 20px 0 20px 0 ;
 
 }
- #container .row .content .grid-item p{
-    font-size:50%;
-    color:#060606;
-    margin-bottom:60px;
-}
+
  #container .row .content .grid-item h2{
     font-size:80%;
     margin:0;
 }
-
- #container div.teal .grid-item p{
+#container .row .content .grid-item p{
+   font-size:50%;
+   color:#060606;
+   margin-bottom:60px;
+}
+ #container div.row.teal .content .grid-item p{
     color:#fff;
 }
  #container .row .column p{
