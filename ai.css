@@ -502,7 +502,7 @@ div#hero .grid-container .grid-item{
 div#hero .grid-container .grid-item img{
      height:400px;
 }
-div#hero .grid-item p{
+div#hero .content .grid-container .grid-item p{
      font-size:65%;
      color:#fff;
 }
