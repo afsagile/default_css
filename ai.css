@@ -274,7 +274,7 @@ div#container div.row div.content h2{
  }
 
  div#container div.white div.content h2{
-     color:#8100CB;
+     color:#8100CB !important;
 }
 
 div.white {
