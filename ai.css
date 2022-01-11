@@ -330,7 +330,7 @@ div.black li ul li{
 p{
     font-family: 'Roboto', sans-serif;
 }
-.row p{
+#container .row .content p{
      font-size:18px;
      margin:15px 0;
 }
