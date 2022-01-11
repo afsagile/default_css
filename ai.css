@@ -284,8 +284,8 @@ div.white {
           background-color: rgba(255,255,255,.9);
           color:#333;
      }
-.solid-white{
-          background:rgba(255,255,255,1)
+#container .solid-white{
+          background-color:rgba(255,255,255,1)
      }
 .white h1.section-title{
      color:#333;
