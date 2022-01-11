@@ -413,7 +413,7 @@ div.hero-img h2{
     margin: 20px 0 20px 0 ;
 
 }
- #container .grid-item p{
+ #container .row .content .grid-item p{
     font-size:50%;
     color:#060606;
     margin-bottom:60px;
