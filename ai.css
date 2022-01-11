@@ -181,6 +181,21 @@ div.more a {
     box-shadow: 8px 8px #d3d3d3;
     color:#fff;
 }
+.purple a.more {
+    display: block;
+    background: rgba(0,243,255,1);
+    font-size: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 250px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 8px 8px #450377;
+    color:#000;
+    margin:0 auto;
+    border-radius:3px;
+}
 
  div.more a:hover {
     background: #333;
@@ -258,15 +273,19 @@ div#container div.row div.content h2{
 
  }
 
- div#container div.row div.white h2{
-     color:#8100CC;
+ div#container .row .white .content h2{
+     color:#8100Cb;
 }
+
 div.white {
           border: 2px #7801D0 solid;
           border-left: 0;
           border-right: 0;
           background-color: rgba(255,255,255,.9);
           color:#333;
+     }
+.solid-white{
+          background:rgba(255,255,255,1)
      }
 .white h1.section-title{
      color:#333;
@@ -311,6 +330,10 @@ div.black li ul li{
 p{
     font-family: 'Roboto', sans-serif;
 }
+.row p{
+     font-size:18px;
+     margin:15px 0;
+}
 div#x15625ad50ba832004ce28ffe15673a58 p{
   margin:0;
 }
@@ -350,7 +373,7 @@ div#container div.nav h1.page-title{
 
 .page-title img{
      height:81px;
-     margin-top:15px;
+
 }
 h1.section-title{
    text-align:left;
@@ -456,6 +479,15 @@ div.nav ul li a{
  div.hero-img img{
         border-radius:7px;
 
+}
+.lg-image{
+     width:1200px;
+}
+.med-image{
+     width:800px;
+}
+.sm-image{
+     width:400px;
 }
  video.hero-video{
     width:550px;
