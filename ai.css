@@ -273,8 +273,8 @@ div#container div.row div.content h2{
 
  }
 
- div#container div.white .content h2{
-     color:#8100Cb;
+ div#container div.white div.content h2{
+     color:#8100CB;
 }
 
 div.white {
