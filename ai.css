@@ -366,7 +366,7 @@ div#container div.nav h1.page-title{
     padding:0;
 }
 /*Make the Agile Institute Logo bigger*/
-#KB0015285 .page-title img, #KB0015287 .page-title img{
+#KB0015285 .page-title img, #KB0015287 .page-title img, .page-title.agile-ins{
      height:40px;
      margin:20px 0 0 20px;
 }
