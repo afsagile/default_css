@@ -730,6 +730,23 @@ div.row a.fancy-button {
       flex: 2 1;
       font-size:130%;
 }
+.anchor{
+     display:flex;
+     gap:30px;
+}
+.anchor .item{
+     flex: 2 1;
+     font-size:130%;
+}
+.three-col{
+     columns:3;
+}
+.three-col > ul{
+     font-size:130%;
+}
+.three-col > ul > li > ul, .three-col > ul > li > ul > li > ul  {
+     font-size:100%;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;900&family=Rock+Salt&display=swap');
 /***End page CSS**/
