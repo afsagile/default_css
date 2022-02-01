@@ -162,13 +162,14 @@ div.more a {
     padding: 7px;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
     color:#fff;
     margin-top:10px;
+    border-radius:3px;
 
 }
 
-#KB0015287  a.more {
+a.more {
     display: block;
     background: rgba(0,0,0,1);
     font-size: 100%;
@@ -178,8 +179,9 @@ div.more a {
     width: 150px;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    box-shadow: 8px 8px #d3d3d3;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
     color:#fff;
+    border-radius:3px;
 }
 .purple a.more {
     display: block;
@@ -191,7 +193,7 @@ div.more a {
     width: 250px;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    box-shadow: 8px 8px #450377;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
     color:#000;
     margin:0 auto;
     border-radius:3px;
@@ -222,14 +224,14 @@ div.purple div.more-alone a{
     padding: 7px;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    box-shadow: 5px 5px #0A0313;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
     margin-top:10px;
     width: 250px;
     color:#6D14C5;
 
 }
 div.purple div.more a{
-color:#fff;
+     color:#fff;
 }
 
 div.purple div.more-alone a:hover {
