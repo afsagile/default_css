@@ -749,6 +749,18 @@ div.row a.fancy-button {
 .three-col > ul > li > ul, .three-col > ul > li > ul > li > ul  {
      font-size:100%;
 }
+details {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 1.2rem;
+    margin-bottom:1rem;
+}
+details > summary {
+     display: list-item;
+     font-size:160%;
+     color:#fff;
+         font-family: 'Raleway', sans-serif;
+}
 <!---test-->
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;900&family=Rock+Salt&display=swap');
 /***End page CSS**/
