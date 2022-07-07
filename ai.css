@@ -516,9 +516,17 @@ div#hero .content .grid-container .grid-item p{
 
 /********  Start Remove ServiceNow UI Elements ***********/
 
-div.cea0dcc050be432004ce28ffe15673a56, h2.widget-header, span.published, i.fa-calendar, span.views, span.str-rating, hr.kb-header-line, .vd3c2037fdbd51014bd74780a3296190e .kb-number-info{
+//*div.cea0dcc050be432004ce28ffe15673a56,
+h2.widget-header,
+span.published,
+i.fa-calendar,
+span.views,
+span.str-rating,
+hr.kb-header-line,
+.vd3c2037fdbd51014bd74780a3296190e
+.kb-number-info{
     display:none;
-}
+}*/
 div.sp-announcement-root,  div.v6f9ddde3db03c4101bcd7e508c9619e5 {
  display:none;
 }
