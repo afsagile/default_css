@@ -542,6 +542,10 @@ div.kb-panel-heading{
     border:0;
     padding-bottom:0;
     margin:0;
+    padding:0;
+    position:absolute;
+    top:6170px;
+    left:150px;
 
 }
 .vd3c2037fdbd51014bd74780a3296190e .kb-dropdown-button {
