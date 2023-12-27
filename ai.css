@@ -1,0 +1,778 @@
+
+/*Stylesheet for Agile Institute Pages*/
+/* Import Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;900&family=Rock+Salt&display=swap');
+
+
+/******* Layout Elements ********/
+div.purple {
+    background: rgba(120,1,208,.8);
+    color:#fff;
+    text-align:left;
+}
+
+div.row {
+    margin:0;
+}
+
+div#container {
+    overflow-y: scroll;
+    background-image: url(https://accenturefederal.servicenowservices.com/sys_attachment.do?sys_id=dc6737f31bf0e8105c42ea41f54bcba6);
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #000;
+    background-attachment: fixed;
+    background-position: left top;
+    /*background-size:100%;*/
+}
+
+
+ #container div.row {
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    border-left: 0;
+    border-right: 0;
+    padding: 30px 0 30px 0;
+    margin:0;
+    border-bottom:5px solid #ffffff;
+
+
+}
+
+#KB0015287  div.row {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    border: 2px #8100CB solid;
+    border-left: 0;
+    border-right: 0;
+    padding: 30px 0 30px 0;
+    margin: 0 0 30px 0;
+
+}
+
+
+div.teal {
+    background: rgba(2,254,255,.8);
+    color:#333;
+    }
+
+ div.black {
+    background: rgba(0,0,0,.7);
+    color:#00f3ff;
+    text-align:left;
+}
+
+div.content {
+    width:1200px;
+    margin:0 auto;
+
+}
+div#container div#ai-home{
+    padding-top:90px;
+}
+ div.column {
+    width:50%;
+    float:left;
+    padding:25px;
+
+}
+
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ .grid-container{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-auto-rows: (200px, auto);
+    justify-items: stretch;
+    margin-top:25px;
+}
+ .grid-item{
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+  border-radius:7px;
+  position:relative;
+}
+ .contact-grid-container{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    justify-items: stretch;
+    margin-top:25px;
+    color: #0A0312;
+}
+
+
+ .contact-grid-item{
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  text-align: left;
+  position:relative;
+  font-size: 140%;
+}
+
+ div.teal .grid-item{
+    background-color:#000;
+    color:#fff;
+}
+
+ .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/******** Link Styling* ********/
+
+a{
+    color:#7801D0;
+}
+a:hover{
+    color:#7801D0;
+    text-decoration: underline;
+}
+
+div.black a{
+    color:#00f3ff;
+}
+div.black .grid-item h2 a{
+     color:#7801D0;
+}
+
+div.more{
+    position:absolute;
+    bottom:20px;
+    right:20px;
+}
+
+div.more a {
+    display: block;
+    background: rgba(120,1,208,1);
+    font-size: 45%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 7px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
+    color:#fff;
+    margin-top:10px;
+    border-radius:3px;
+
+}
+
+a.more {
+    display: block;
+    background: rgba(0,0,0,1);
+    font-size: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 150px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
+    color:#fff;
+    border-radius:3px;
+}
+.purple a.more {
+    display: block;
+    background: rgba(0,243,255,1);
+    font-size: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 250px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
+    color:#000;
+    margin:0 auto;
+    border-radius:3px;
+}
+
+ div.more a:hover {
+    background: #333;
+
+}
+
+div.teal div.more a {
+    background: rgb(2,254,255);
+    color:#000;
+
+}
+div.teal div.more a:hover {
+    background: rgba(2,254,255,.7);
+
+
+}
+
+div.purple div.more-alone a{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 7px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
+    margin-top:10px;
+    width: 250px;
+    color:#6D14C5;
+
+}
+div.purple div.more a{
+     color:#fff;
+}
+
+div.purple div.more-alone a:hover {
+    background-color: #7801D0;
+    color: #fff;
+
+
+}
+div.purple a{
+     color:#03FFFF;
+}
+.purple .grid-item h2 a{
+     color:#7801D0;
+}
+
+
+a.learn {
+    font-size: 120%;
+    text-decoration: none;
+    font-weight:bold;
+
+
+}
+
+a.learn::before  {
+  content: "✅ ";
+}
+ #container .teal .content .grid-item h2 a{
+    color:#08FDFF;
+}
+
+/********* Text Elements ***********/
+
+
+div#container div.row div.content h2{
+    color:#fff;
+    font-size:180%;
+    font-family: 'Roboto', sans-serif;
+   font-weight:bold;
+   margin:0;
+
+ }
+
+ div#container div.white div.content h2{
+     color:#8100CB !important;
+}
+
+div.white {
+          border: 2px #7801D0 solid;
+          border-left: 0;
+          border-right: 0;
+          background-color: rgba(255,255,255,.9);
+          color:#333;
+     }
+#container .solid-white{
+          background-color:rgba(255,255,255,1)
+     }
+.white h1.section-title{
+     color:#333;
+
+}
+div.black ul{
+    color:#fff;
+    font-size:130%;
+}
+    .product-logo{
+         float:left;
+         width:350px;
+    }
+    .details{
+         float:right;
+         width:550px;
+         font-size:150%;
+    }
+    #container .row .content .details h2{
+         color:#7801D0;
+    }
+    #KB0015289 div.row{
+         margin-bottom:25px;
+    }
+ }
+ div.black ul li ul{
+    font-size:100%;
+ }
+div.black li{
+    margin-bottom:15px;
+ }
+div.black li ul li{
+    margin-bottom:0;
+ }
+  div.black p{
+     color:#fff;
+     font-size:130%;
+
+  }
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+#container .row .content p{
+     font-size:18px;
+     margin:15px 0;
+}
+div#x15625ad50ba832004ce28ffe15673a58 p{
+  margin:0;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size:300%;
+    color:#fff;
+    margin-bottom:20px;
+    text-align:center;
+
+}
+ h2{
+    font-family: 'Raleway', sans-serif;
+    color:#000;
+    font-size:300%;
+
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    color:#000;
+    font-size:200%;
+
+}
+div#container div.nav h1.page-title{
+    float:left;
+    color:#fff;
+    display:block;
+    height:81px;
+    margin:0;
+    padding:0;
+}
+/*Make the Agile Institute Logo bigger*/
+#KB0015285 .page-title img, #KB0015287 .page-title img{
+     height:40px;
+     margin:20px 0 0 20px;
+}
+
+ .page-title.agile-ins img{
+     height:40px;
+     margin:20px 0 0 20px;
+}
+
+.page-title img{
+     height:81px;
+
+}
+h1.section-title{
+   text-align:left;
+   margin:0;
+   font-size:250%;
+}
+
+div.teal h1.section-title{
+    color:#333;
+}
+
+div.hero-img h2{
+
+   position: absolute;
+   top: 50px;
+   right: 0;
+   color:#fff;
+   font-size:180%;
+   display: block;
+   width:500px;
+   padding:25px;
+   background: rgba(0,0,0,.4);
+   line-height:35px;
+}
+ #container .row .teal .content .grid-item h2{
+    font-size:80%;
+    margin:0;
+    color:#08FDFF;
+}
+#container .row .black .content .grid-item h2{
+   color:#7901D0;
+}
+ div#container div.row .contact-grid-container div.contact-grid-item h2{
+    text-align: center;
+    color: #0A0312;
+    font-size: 140%;
+    margin: 20px 0 20px 0 ;
+
+}
+
+ #container .row .content .grid-item h2{
+    font-size:80%;
+    margin:0;
+}
+#container .row .content .grid-item p{
+   font-size:50%;
+   color:#060606;
+   margin-bottom:60px;
+}
+ #container div.row.teal .content .grid-item p{
+    color:#fff;
+}
+ #container .row .column p{
+    font-size:130%;
+}
+
+/******** Page Navigation ********/
+
+div.nav {
+    background: rgba(0,0,0,.9);
+    padding:15px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, .4);
+    position:fixed;
+    width:100%;
+    z-index: 3;
+
+
+}
+div.nav ul{
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: -0.0277em;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style: none;
+    width:800px;
+    float:right;
+    padding:0;
+    height:60px;;
+    align-items:center;
+}
+div.nav ul li a{
+    color:#fff;
+    font-size:100%;
+    margin-right:45px;
+
+}
+
+
+
+
+/********* IMAGES & VIDEO ********/
+
+ div.hero-img{
+    width:100%;
+    height:300px;
+    background-color:blue;
+    border-radius:7px;
+    position:relative;
+
+}
+ div.hero-img img{
+        border-radius:7px;
+
+}
+.lg-image{
+     width:1200px;
+}
+.med-image{
+     width:800px;
+}
+.sm-image{
+     width:400px;
+}
+ video.hero-video{
+    width:550px;
+}
+
+div#hero .grid-container {
+     grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+div#hero .grid-container .grid-item{
+     background:transparent;
+}
+div#hero .grid-container .grid-item img{
+     height:400px;
+}
+div#hero .content .grid-container .grid-item p{
+     font-size:65%;
+     color:#fff;
+}
+
+/********  Start Remove ServiceNow UI Elements ***********/
+
+div.cea0dcc050be432004ce28ffe15673a56,
+h2.widget-header,
+span.published,
+i.fa-calendar,
+span.views,
+span.str-rating,
+hr.kb-header-line,
+.vd3c2037fdbd51014bd74780a3296190e
+.kb-number-info{
+    display:none;
+}
+div.sp-announcement-root,  div.v6f9ddde3db03c4101bcd7e508c9619e5 {
+ display:none;
+}
+
+.vd3c2037fdbd51014bd74780a3296190e .kb-desktop.kb-wrapper {
+    padding:0;
+}
+main.padding-top{
+    padding:0;
+}
+
+div.kb-panel-heading{
+    border:0;
+    padding-bottom:0;
+    margin:0;
+    padding:0;
+    position:absolute;
+    top:6170px;
+    left:150px;
+
+}
+.vd3c2037fdbd51014bd74780a3296190e .kb-dropdown-button {
+    height:10px;
+    padding:0;
+}
+.kb-end-buttons {
+    padding:0;
+
+}
+
+.container-fluid {
+    margin:0;
+    padding:0;
+    }
+
+.kb-help-wrapper, .kb-permalink-separator{
+          display:none;
+        }
+
+.sp-ac-container{
+    display:none;
+    }
+
+/*End Remove ServiceNow Garbage UI Elements*/
+
+/**** Start Jumpstart Videos Page Specific CSS, Pull this into the main CSS file ***/
+div.content div.video-bucket{
+  width:650px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:40px;
+}
+div.video-bucket video{
+  width:650px;
+}
+#container .row .video-bucket h2{
+  margin-top:40px;
+}
+
+#container .top-row{
+  margin-top:100px !important;
+}
+.align-left{
+  text-align:left;
+}
+.page-summary{
+  text-align:center;
+  font-size:120%;
+  line-height:170%;
+}
+
+#KB0015287 div.two-columns {
+    width:1200px;
+    margin:0 auto;
+    column-count: 2;
+    column-gap: 100px;
+   column-rule: 1px solid #fff;
+column-rule-style:dotted;
+text-align:left;
+
+}
+.center{
+     text-align: center !important;
+}
+div.black div.two-columns h2{
+    color:#fff;
+    font-size:180%;
+    font-family: 'Roboto', sans-serif;
+    margin:50px 0 0 0;
+   font-weight:bold;
+
+ }
+
+ #KB0015287  div.black {
+     border: 2px #00f3ff solid;
+     border-left: 0;
+     border-right: 0;
+     background: rgba(0,0,0,.7);
+     color:#00f3ff;
+     text-align:left;
+ }
+
+ div.white{
+      border-top:5px solid #7801D0;
+      border-bottom:5px solid #7801D0;
+
+ }
+ h1.section-title{
+      margin-bottom:20px;
+      font-size:300%;
+ }
+ .two-columns-b{
+       display: flex;
+       margin-top: 25px;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: 0;
+
+  }
+  .two-columns-b img{
+       width:500px;
+ }
+ .two-columns-b div{
+      width:100%;
+      text-align:center;
+ }
+div.two-columns{
+      display: flex;
+      margin-top: 25px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0;
+
+ }
+div.two-columns div{
+      margin:15px auto;
+      width:100%;
+ }
+ .rfp-two-columns {
+     width:1200px;
+     margin:0 auto;
+     column-count: 2;
+     column-gap: 100px;
+    column-rule: 1px solid #fff;
+column-rule-style:dotted;
+text-align:left;
+display:block;
+
+}
+.rfp-two-columns h2{
+      color:#fff;
+      font-size:200%;
+      margin-top:50px;
+
+}
+.rfp-two-columns h3{
+      font-size:140%;
+      color:#fff;
+}
+
+
+div.two-columns img{
+      width: 100px;
+      filter: invert(68%) sepia(83%) saturate(1444%) hue-rotate(134deg) brightness(103%) contrast(107%);
+      float: left;
+      margin-right: 30px;
+ }
+
+div.two-columns p {
+      width: 425px;
+      display: block;
+      float: left;
+      text-align: left;
+      font-size: 90%;
+ }
+
+
+
+div.two-columns h2 {
+      text-transform: uppercase;
+      font-size: 150%;
+      margin: 0;
+      text-align: left;
+      color: #00f3ff;
+ }
+
+
+
+
+div.row a.fancy-button {
+      display: block;
+      font-size: 150%;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 10px;
+      width: 300px;
+      text-decoration: none;
+      font-family: 'Raleway', sans-serif;
+      border:0.1em solid #FFFFFF;
+      color:#fff;
+      border-radius:0.12em;
+      margin:0 auto;
+
+
+ }
+ a.fancy-button:hover{
+      color:#000000;
+      background-color:#FFFFFF;
+ }
+ .anchor{
+      display:flex;
+      gap:30px;
+}
+.anchor .item{
+      flex: 2 1;
+      font-size:130%;
+}
+.anchor{
+     display:flex;
+     gap:30px;
+}
+.anchor .item{
+     flex: 2 1;
+     font-size:130%;
+}
+.three-col{
+     columns:3;
+}
+.three-col > ul{
+     font-size:130%;
+}
+.three-col > ul > li > ul, .three-col > ul > li > ul > li > ul  {
+     font-size:100%;
+}
+details {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 1.2rem;
+    margin-bottom:1rem;
+}
+details > summary {
+     display: list-item;
+     font-size:160%;
+     color:#fff;
+         font-family: 'Raleway', sans-serif;
+}
+<!---test-->
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;900&family=Rock+Salt&display=swap');
+/***End page CSS**/
